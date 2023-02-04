@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins:wght@500&display=swap');
+
+#rotate-scroll {
+	width: 100px;
+	height: 100px;
+	background-color: #3498bd;
+	transform: rotate(0deg);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #150050;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-self: center;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    background-color: greenyellow;
+    display: flex;
+}
+
+.seccion-titulo {
+    align-self: center;
+}
+
+#titulo {
+  text-align-last: center;
+  font-size: 40px;
+  color: white;
+  font-style: oblique;
+  width: 285px;
+  height: 50px;
+  background-color: orange;
+}
+
+#seleccionar-mascota {
+    background-color: transparent;
+    color: white;
+    border: 5px solid white;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.tarjeta-de-royatoon {
+    width: 150px;
+    height: 150px;
+    background: darkorange;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarjeta-de-royatoon img {
+  width: 80px;
+}
+
+#boton-mascota {
+  width: 180px;
+  height: 80px;
+  border-radius: 30px;
+  background: transparent;
+  border: 5px solid orangered;
+  color: orange;
+}
+
+.tarjetas, .tarjetas-ataque {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.subtitulo {
+    text-align-last: center;
+}
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones {
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100px;
+    border-color: transparent;
+    color: white;
+}
+
+#resultado {
+    width: 130px;
+    height: 50px;
+    background: orange;
+    color: blueviolet;
+    border-radius: 25px;
+    border-top: 20px;
+    text-align: center;
+}
+
+#boton-reiniciar {
+    color: transparent;
+    border-color: #150050;
+}
+
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+@media (max-width: 500px) {
+    .tarjetas, .tarjetas-ataque {
+        flex-direction: column;
+    }
+    .ataques
+}
