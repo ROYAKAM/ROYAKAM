@@ -24,6 +24,7 @@ const spanMascotaJugador = document.getElementById('mascota-jugador')
 const spanMascotaEnemigo = document.getElementById('mascota-enemigo')
 
 const spanVidasJugador = document.getElementById('vidas-jugador')
+
 const spanVidasEnemigo = document.getElementById('vidas-enemigo')
 
 
@@ -32,6 +33,7 @@ const SectionMensajes = document.getElementById('resultado')
 const ataquesDelJugador = document.getElementById('ataques-del-jugador')
 
 const ataquesDelEnemigo = document.getElementById('ataques-del-enemigo')
+
 const contenedortarjetas = document.getElementById('contenedortarjetas')
 
 
